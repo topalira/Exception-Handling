@@ -11,7 +11,7 @@ public:
     {
         if (a < 0 || b < 0)
         {
-            throw "X < 0 || Y < 0";
+            throw "A < 0 || B < 0";
         }
         x = a;
         y = b;
