@@ -16,19 +16,21 @@ public:
         x = a;
         y = b;
     }
-    int SetX()
+    void SetX(int a)
     {
         if (x < 0)
         {
             throw - 1;
         }
+        x = a;
     }
-    int SetY()
+    void SetY(int b)
     {
         if (y < 0)
         {
             throw - 1;
         }
+        y = b;
     }
 };
 
